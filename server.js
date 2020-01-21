@@ -15,7 +15,7 @@ server.use(cors());
 server.use("/api", apiRouter);
 
 server.get("/", function(req, res) {
-  res.send("API is online 👍");
+  res.send("API IS WORKING");
 });
 
 //Route fallback (404)
